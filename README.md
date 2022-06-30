@@ -1,5 +1,7 @@
 # Periphery
 Grammar-based demographic generator with details that solidify like a dream.
+![image](https://user-images.githubusercontent.com/4501/176780452-9ed83dc2-ec8b-4943-8588-ca17504024f9.png)
+
 
 
 ## Usage
