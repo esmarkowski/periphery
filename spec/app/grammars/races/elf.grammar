@@ -1,0 +1,21 @@
+{
+    "setAge": ["[age:#number.random(100..750)#]"],
+
+    "appearance_hair_color": ["auburn", "brown", "blonde", "black", "gray", "peppered", "red", "white", "pink", "violet"],
+    "appearance_hair_length": ["short", "medium", "long"],
+    "appearance_hair_style": ["straight", "wavy"],
+    "appearance_eye_color": ["blue", "green", "hazel", "violet"],
+    "appearance_height": ["#number.random(150..188)#"],
+    "appearance_weight": ["#number.random(20..68)#"],
+    "appearance_complexion": ["pale", "fair", "medium", "olive", "dark"],
+    "appearance_build": ["average", "slim"], 
+
+    "addRaceStatModifiers": [
+        "[dexterity:SET#dexterity.add(2)#]"
+    ],
+
+
+    "male_name": ["Ettrian", "Erlareo", "Ganamede", "Ruvyn", "Alosrin", "Elion", "Mhaenal", "Kelvhan", "Hagen", "Sihnion", "Wyninn", "Tanithil", "Thalanil", "Llarm", "Eroan", "Hastios", "Merith", "Kellam", "Thallan", "Halflar"],
+    "female_name": ["Aila", "Amnestria", "Esiyae", "Edea", "Ulesse", "Filauria", "Phinara", "Hamalitia", "Wynather", "Falenas", "Nuala", "Allynna", "Halanaestra", "Myriani", "Faylen", "Rania", "Dirue", "Burolia", "Thalia", "Ryllae"],
+    "surname": ["Ulawenys", "Dordithas", "Holahorn", "Nerirona", "Qiralei", "Grerel", "Fapeiros", "Elnan", "Faerona", "Phikalyn", "Zinfiel", "Petfiel", "Herpeiros", "Valgeiros", "Balra", "Faexidor", "Wynlen", "Torwynn", "Yesro", "Wranjeon", "Yllamaris", "Venran", "Ralozorwyn", "Wysacyne", "Glyndithas", "Shapetor", "Faemys", "Beijor", "Zinberos", "Umeren", "Adgolor", "Adbella", "Qidan", "Kelzorwyn", "Krisjeon", "Faynore", "Yelna", "Bryroris", "Sylgella", "Inanelis"]
+}

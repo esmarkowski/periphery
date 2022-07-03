@@ -1,0 +1,18 @@
+{
+    "injuries": ["broken #bone#", "lost #body_part.indefinite_article#", "burn on #body_part#", "scars on #body_part#"],
+    "head": ["tooth", "neck", "forehead", "chin", "mouth", "nose", "head"],
+    "finger": ["thumb", "index", "middle", "ring", "pinky"],
+    "body_part": ["shoulder", "arm", "leg", "foot", "hand", "eye", "ear", "bicep", "chest", "forearm", "shin", "thigh", "cheek"], 
+    "sickness": ["#disease#"],
+    "luck": ["#bad_luck#", "#good_luck#"],
+    "close_encounters": ["#animal#", "#creature#", "#monster#", "#humanoid#", "#undead#"],
+    "meetings": ["#animal#", "#creature#", "#monster#", "#humanoid#", "#undead#"],
+    "deeds": ["#cheated#", "#good_deed#", "#bad_deed#", "#evil_deed#"],
+    "skills": ["#training#", "#crafting#", "#magic#", "#lore#", "#perception#", "#stealth#", "#survival#"],
+    "getEvent": ["#injury#", "#sickness#", "#luck#", "#close_encounters#", "#meetings#", "#deeds#", "#skills#"],
+    "setHistory": [
+        "[early_childhood_events:#getEvent#]",
+        "[teenage_events:#getEvent#]",
+        "[adulthood_events:#getEvent#]"
+    ]
+}

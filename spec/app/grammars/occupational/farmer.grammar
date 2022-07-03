@@ -1,0 +1,4 @@
+{
+    "occupation": ["farmer"],
+    "occupational_activity": ["grows #vegetable.pluralize#", "tends to #fruit.pluralize# trees", "keeps #livestock.pluralize#", "plants #crop#"]
+}

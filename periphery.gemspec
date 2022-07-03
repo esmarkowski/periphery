@@ -34,4 +34,10 @@ Gem::Specification.new do |spec|
   spec.add_dependency "zeitwerk", "~> 2.6.0"
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
+  spec.add_dependency "awesome_print", "~> 1.9"
+  spec.add_development_dependency "rake", "~> 13.0"
+  spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_dependency "activesupport", "> 5.0"
+  spec.add_dependency "terminal-table", "~> 3.0.2"
+  spec.add_dependency "tracery-rb"
 end

@@ -1,0 +1,14 @@
+{
+    "stone": ["limestone", "shale", "granite", "marble"],
+    "mineral": ["salt", "coal", "ochre"],
+    "metal": ["copper", "silver", "gold", "iron", "tin", "lead"],
+    "livestock": ["cow", "pig", "goat", "fowl", "horse", "ox", "chicken"],
+    "crop": ["#grain#", "#vegetable#", "#fruit#"],
+    "grain": ["wheat", "corn", "barley", "rice", "sorghum", "oats", "millet"],
+    "vegetable": ["carrot", "celery", "cucumber", "pea", "bean", "potato", "onion", "tomato", "lettuce", "cabbage", "spinach", "broccoli", "cauliflower", "radish", "pepper"],
+    "fruit": ["apple", "orange", "banana", "pear", "peach", "cherry", "plum", "grape", "strawberry", "blueberry", "kiwi", "papaya", "apricot", "cherimoya", "avocado", "nectarine", "pomegranate", "date", "grapefruit"],
+    "lumber": ["wood", "logs", "timber", "bark", "ash", "charcoal", "firewood", "ashwood", "birch", "cedar", "elm", "oak", "pine", "willow", "yew"],
+    "fish": ["salmon", "trout", "cod", "pike", "perch", "carp", "haddock", "halibut", "sardine", "squid", "clam", "crab", "lobster", "scallop", "shrimp", "octopus", "oyster"],
+    "wild_game": ["deer", "elk", "moose", "bear", "rabbit", "squirrel", "raccoon", "mouse", "rat", "fox", "beaver", "boar"],
+    "gemstone": ["diamond", "ruby", "sapphire", "emerald", "topaz", "opal", "onyx", "tourmaline", "amethyst", "garnet", "alexandrite", "jade", "carnelian", "quartz", "citrine", "malachite", "jasper", "zircon", "sardonyx", "amber"]
+  }

@@ -1,0 +1,23 @@
+{
+    "setAge": ["[age:#number.random(40..420)#]"],
+
+    "appearance_hair_color": ["auburn", "brown", "blonde", "black", "gray", "peppered", "red", "white"],
+    "appearance_hair_length": ["short", "medium", "long"],
+    "appearance_hair_style": ["straight", "wavy"],
+    "appearance_eye_color": ["blue", "green", "hazel", "violet"],
+    "appearance_height": ["#number.random(91..120)#"],
+    "appearance_weight": ["<appearance_weight_#build#>"],
+    "appearance_complexion": ["pale", "fair", "medium", "olive", "dark", "greyish"],
+    "appearance_build": ["average", "slim", "fat"], 
+    "appearance_weight_average": ["#number.random(17..20)#"],
+    "appearance_weight_slim": ["#number.random(14..16)#"],
+    "appearance_weight_fat": ["#number.random(20..30)#"],
+
+    "addRaceStatModifiers": [
+        "[intelligence:SET#intelligence.add(2)#]"
+    ],
+
+    "male_name": ["Snooddirt", "Rybnag", "Sninkker", "Widdwist", "Slaakpim", "Pinzbecick", "Pimmedast", "Wilipnat", "Clailamteck", "Goolerwop", "Nikmust", "Jenjim", "Snoddap", "Pereet", "Klungniep", "Modnyvag", "Tekpyrart", "Rifalkac", "Mybarwest", "Dybansbock", "Cirbom", "Knomzeck", "Donjop", "Wembep", "Tumzug", "Laipnovim", "Maakweebam", "Joodenkkat", "Knanamtort", "Dolimboort"], 
+    "female_name": ["Shulbip", "Fugnes", "Wibbnyp", "Nilnass", "Gnerwiep", "Fnammasel", "Cliblynus", "Gnilobbleth", "Fihyllmes", "Ufollba", "Thugni", "Gielvooll", "Sneddwooth", "Blillmin", "Leddne", "Webbnanu", "Elkihaa", "Taanogbem", "Clodorby", "Emepnoo", "Gnaddle", "Lyvess", "Wanbem", "Lembot", "Snilvil", "Floomdebo", "Apniebi", "Snamapnus", "Flasiddess", "Gymarwip"],
+    "surname": ["Biedbuck", "Phumjoll", "Cinkki", "Golkap", "Shulkurt", "Arbelast", "Flobblelo", "Smuwelvaa", "Phuwullboop", "Ysalwest", "Snovig", "Hainklet", "Phebnop", "Claimjes", "Zangloock", "Mibkeran", "Rabbluhack", "Pesillmyr", "Smileddnass", "Cewokil", "Jembyp", "Hyddlam", "Gnimwem", "Blidnim", "Slonsmog", "Febkagert", "Jallnofin", "Klafansnen", "Elikni", "Shaalolvaiss"] 
+}
