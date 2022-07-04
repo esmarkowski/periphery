@@ -1,0 +1,7 @@
+{
+    "creature": ["fairy", "#animal#", "#creature#", "#monster#", "#humanoid#", "#undead#"],
+    "undead": ["rusulka", "skeleton", "ghost", "thrall", "vampire", "lich"],
+    "humanoid": ["human", "elf", "dwarf", "orc", "gnome", "goblin", "halfling", "half-elf", "half-orc", "half-dwarf", "half-gnome", "half-goblin"],
+    "monster": ["minotaur", "goblin", "centaur", "dragon", "troll", "orc", "kobold", "ogre"]
+
+}

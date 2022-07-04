@@ -5,7 +5,7 @@
     "appearance_hair_color": ["brown", "blonde", "black", "gray", "peppered", "red", "white"],
     "appearance_hair_length": ["short", "medium", "long"],
     "appearance_hair_style": ["straight", "wavy", "curly"],
-    "appearance_eye_color": ["blue", "brown", "green", "hazel", "red", "violet"],
+    "appearance_eye_color": ["brown", "green", "hazel"],
     "appearance_height": ["#number.random(120..152)#"],
     "appearance_weight": ["#number.random(20..68)#"],
     "appearance_complexion": ["pale", "fair", "medium", "olive", "brown", "dark"],

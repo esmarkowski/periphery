@@ -1,0 +1,12 @@
+{
+    "crop": ["#grain#", "#vegetable#", "#fruit#"],
+    "grain": ["wheat", "corn", "barley", "rice", "sorghum", "oats", "millet"],
+    "vegetable": ["carrot", "celery", "cucumber", "pea", "bean", "potato", "onion", "tomato", "lettuce", "cabbage", "spinach", "broccoli", "cauliflower", "radish", "pepper"],
+    "fruit": ["apple", "orange", "banana", "pear", "peach", "cherry", "plum", "grape", "strawberry", "blueberry", "kiwi", "papaya", "apricot", "cherimoya", "avocado", "nectarine", "pomegranate", "date", "grapefruit"],
+
+    "fish": ["salmon", "trout", "cod", "pike", "perch", "carp", "haddock", "halibut", "sardine", "squid", "clam", "crab", "lobster", "scallop", "shrimp", "octopus", "oyster"],
+
+    "wild_game": ["deer", "elk", "moose", "bear", "rabbit", "squirrel", "raccoon", "mouse", "rat", "fox", "beaver", "boar"],
+    "animal": ["#wild_game#", "#livestock#","#fish#"],
+    "livestock": ["cow", "pig", "goat", "fowl", "horse", "ox", "chicken"]
+}

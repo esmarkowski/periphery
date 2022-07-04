@@ -1,0 +1,5 @@
+{
+    "magic": ["abjuration", "alteration", "conjuration", "divination", "enchantment", "illusion", "invocation", "necromancy"],
+    "spell": ["#abjuration_spell#", "#alteration_spell#", "#conjuration_spell#", "#enchantment_spell#", "#evocation_spell#", "#illusion_spell#", "#transmutation_spell#", "#divination_spell#", "#invocation_spell#", "#necromancy_spell#"]
+
+}

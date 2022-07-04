@@ -5,7 +5,7 @@ RSpec.describe "Model", type: :model do
         attribute :age, :race, :gender
 
         def initialize(**parameters) 
-            super(parameters)
+            super(**parameters)
         end
 
     end

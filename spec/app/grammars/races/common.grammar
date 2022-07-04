@@ -1,81 +1,24 @@
 {
     "race": ["human", "elf", "dwarf", "gnome"],
-    "injury": ["broken #appendage#", "missing #body_side# #appendage#", "lost #body_side# #appendage#", "burn on #body_part#", "scars on #body_part#"],
+
+    "injury": ["broken #their# #appendage#", "lost #their# #body_side# #appendage#", "burns on #their# #body_part#", "scars on #their# #body_part#"],
     "head": ["tooth", "neck", "forehead", "chin", "mouth", "nose", "head"],
     "finger": ["index", "middle", "ring", "pinky"],
     "body_side": ["left", "right"],
     "body_part": ["shoulder", "bicep", "chest", "shin", "thigh", "cheek", "#body_side# #appendage#"], 
     "appendage": ["leg", "foot", "toe", "arm", "eye", "ear", "hand", "#finger# finger", "thumb", "forearm"],
     "sickness": ["dysentery", "malaria", "diphtheria", "flu", "typhoid", "smallpox","leprosy"],
-    "luck_event": ["#bad_luck#", "#good_luck#"],
-    "bad_luck": ["spent savings on #vice#", "#vice# habit", "addicted to #vice#", "cursed with #curse#"],
-    "curse": ["bad luck", "poverty", "lonliness", "weakness", "clumsiness", "stupidity"],
-    "vice": ["gambling", "alcohol", "smoking"],
-    "good_luck": ["found #item#"],
-    "crime": ["murder", "theft", "extortion", "blackmail", "rape"],
-    "sin": ["prideful", "greedy", "lustful", "envious", "gluttonous", "wrathful", "slothful"],
-    "temperament": ["happy", "gloomy", "angry", "bitter", "sad", "joyful", "humorous", "optimist", "pessimistic", "depressed", "haughty"],
-    "trait": ["irrational", "rational", "carefree", "cautious", "kind", "aloof", "meticulous", "obsessive", "dismissive", "flaky", "close-minded", "open-minded", "pervert", "prudish"],
-    "bad_deed": ["Committed #crime#","#sin#"],
-    "evil_deed": ["#bad_deed#"],
-    "good_deed": ["#charity#"],
-    "currency": ["gold", "copper", "silver"],
-    "creature": ["fairy", "#animal#", "#creature#", "#monster#", "#humanoid#", "#undead#"],
-    "undead": ["rusulka", "skeleton", "ghost", "thrall", "vampire", "lich"],
-    "religion": ["the temple"],
-    "faction": ["Society of #occupation.s#", "#occupation#'s union", "#religion#", "#creature.s#", "#race#kind"],
-    "charity": ["donated #money# to [supports:#faction#]#supports#", "donated #money# to rid the world of [hates:#creature.s#]#hates.s#", "donated #food# to [supports:#faction#]#faction#"],
-    "food": ["ale", "beans", "beef", "beer", "brandy elvin", "brandy", "bread", "butter", "cheese", "chicken", "coarse sugar", "dried #crop#", "egg", "eggs", "feywine", "figs", "fish", "flour", "fresh vegetable", "fruit", "game meat", "grain", "grog", "herbs", "honey", "pickled fish", "pork", "rum", "sausage", "scotch", "spice", "whiskey", "wine", "#crop#"],
-    "meal": ["#food# stew", "#food# pie", "#food# and #food# bowl"],
-    "animal": ["#wild_game#", "#livestock#","#fish#"],
-    "item": ["#gemstone.indefinite_article#", "#metal#", "#jewelry.indefinite_article#", "#weapon.indefinite_article#", "#armor#", "#potion#", "#food#", "#knowledge#", "#artifact#", "#money#"],
-    "jewelry": ["#metal# #jewelry_piece#", "#gemstone# #jewelry_piece#"],
-    "jewelry_piece": ["ring", "necklace", "bracelet", "amulet", "brooch", "choker", "earring", "pendant", "circlet", "stud"],
-    "artifact": ["deck of tarrot cards", "stone tablet"],
-    "armor_type": ["leather", "plate", "chainmail", "scale-mail", "studded leather", "#metal#"],
-    "armor_piece": ["helmet", "breastplate", "gauntlets", "greaves", "boots", "gloves"],
-    "armor": ["#armor_type# #armor_piece#"],
-    "weapon": ["sword", "dagger", "mace", "spear", "axe", "bow", "crossbow", "staff", "wand", "hammer", "flail", "maul", "scythe", "polearm"],
-    "potion": ["health", "mana", "strength", "agility", "intelligence", "charisma", "constitution"],
-    "money": ["#n.random(1..200)# #currency# coins"],
-    "monster": ["minotaur", "goblin", "centaur", "dragon", "troll", "orc", "kobold", "ogre"],
-    "close_encounter": ["close encounter with #creature.indefinite_article#"],
+
+
     "affinity": ["#animal.s#", "#creature.s#", "#monster.s#", "#humanoid.s#", "#undead.s#", "#race.pluralize#", "#race# women", "#race# men"],
-    "deed": ["#good_deed#", "#bad_deed#", "#evil_deed#"],
-    "skill_level": ["Trained as", "Skilled at", "Experienced in", "Proficient at", "Expert at", "Learning", "Student of", "Master at", "Adept at", "Novice at"],
-    "skill": ["#skill_level# #training#", "#skill_level# #crafting#", "#skill_level# #magic#", "#skill_level# #lore#", "#skill_level# #perception#", "#skill_level# #stealth#", "#skill_level# #survival#"],
-    "stone": ["limestone", "shale", "granite", "marble"],
-    "humanoid": ["human", "elf", "dwarf", "orc", "gnome", "goblin", "halfling", "half-elf", "half-orc", "half-dwarf", "half-gnome", "half-goblin"],
-    "mineral": ["salt", "coal", "ochre"],
-    "metal": ["copper", "silver", "gold", "iron", "tin", "lead"],
-    "livestock": ["cow", "pig", "goat", "fowl", "horse", "ox", "chicken"],
-    "crop": ["#grain#", "#vegetable#", "#fruit#"],
-    "grain": ["wheat", "corn", "barley", "rice", "sorghum", "oats", "millet"],
-    "vegetable": ["carrot", "celery", "cucumber", "pea", "bean", "potato", "onion", "tomato", "lettuce", "cabbage", "spinach", "broccoli", "cauliflower", "radish", "pepper"],
-    "fruit": ["apple", "orange", "banana", "pear", "peach", "cherry", "plum", "grape", "strawberry", "blueberry", "kiwi", "papaya", "apricot", "cherimoya", "avocado", "nectarine", "pomegranate", "date", "grapefruit"],
-    "lumber": ["wood", "logs", "timber", "bark", "ash", "charcoal", "firewood", "ashwood", "birch", "cedar", "elm", "oak", "pine", "willow", "yew"],
-    "fish": ["salmon", "trout", "cod", "pike", "perch", "carp", "haddock", "halibut", "sardine", "squid", "clam", "crab", "lobster", "scallop", "shrimp", "octopus", "oyster"],
-    "wild_game": ["deer", "elk", "moose", "bear", "rabbit", "squirrel", "raccoon", "mouse", "rat", "fox", "beaver", "boar"],
-    "gemstone": ["diamond", "ruby", "sapphire", "emerald", "topaz", "opal", "onyx", "tourmaline", "amethyst", "garnet", "alexandrite", "jade", "carnelian", "quartz", "citrine", "malachite", "jasper", "zircon", "sardonyx", "amber"],
-    "survival": ["herbalist", "tracker", "forecast weather"],
-    "lore": ["ancient history", "mythology", "military history", "geneology", "astrology" ],
-    "perception": ["notice clues", "detect secret doors", "spot imminent dangers", "find traps", "follow tracks", "listening for sounds", "find hidden"],
-    "stealth": ["light feet", "spatial awareness", "staying out of sight", "blending in"],
-    "crafting": ["smithing", "leatherworking", "tailoring", "jewelrymaking", "pottery", "cooking", "alchemy", "brewing", "fishing"],
-    "training": ["#instrument#", "#weapon#", "#armor#", "#occupation#", "business", "administration", "medicine", "engineering", "architecture", "law"],
-    "instrument": ["lute", "flute", "drum", "lyre", "whistle", "dulcimer"],
-    "knowledge": ["#book_state# #book.titleize#",  "#potion#", "#recipe#", "#scroll#"],
-    "scroll": ["ledger of accounts", "#spell#", "poem"],
-    "recipe": ["#meal#", "#potion#", "#metal#"],
-    "potion": ["Potion of #potion_type#", "Vial of #potion_type#", "Bottle of #potion_type#"],
-    "potion_type": ["vigor", "health", "mana", "strength", "agility", "intelligence", "charisma", "constitution", "lust", "insanity", "confusion", "blindness", "paralysis", "poison", "disease", "wound", "crippled", "fear", "death", "regeneration", "invisibility"],
-    "spell": ["#abjuration_spell#", "#alteration_spell#", "#conjuration_spell#", "#enchantment_spell#", "#evocation_spell#", "#illusion_spell#", "#transmutation_spell#", "#divination_spell#", "#invocation_spell#", "#necromancy_spell#"],
-    "book_subject": ["#occupation#", "#skill#", "#magic#", "#lore#", "#perception#", "#survival#", "#crafting#", "#training#", "#instrument#", "#knowledge#", "#scroll#"],
-    "book_state": ["yellowed", "crumbling", "leather-bound", "canvas-bound", "thick", "thin"],
-    "book": ["collection of #book_subject.pluralize#", "Guide to #book_subject#", "Tome of #book_subject#", "Manual of #book_subject#"],
-    "magic": ["abjuration", "alteration", "conjuration", "divination", "enchantment", "illusion", "invocation", "necromancy"],
-    "deity": ["T'raugausth, The Prime Worm", "Menanil, The Blue Frost", "Ortagith, The Fatal Master of Snow", "Drur, The Sustainable Lady of Gates", "Shimbergro, The Explicit Raven", "Bishangul, The Purple Winter"],
-    "name": ["#first_name# #last_name#"],
+
+
+    "speech_action": ["chastise", "lecture", "praise", "congratulate", "warn", "lick", "poke", "pet", "push", "fight", "murder", "romance", "grope", "kiss", "smooch", "hold"],
+    "seen_here": [
+        "#speech_action.conjugate(tense: present, person: third, aspect: prospective)# #creature.a#",
+        "#speech_action.conjugate(tense: future, person: third, aspect: progressive)# #creature.a#",
+        "#speech_action.conjugate(tense: past, person: first, aspect: progressive)# #vegetable.a#"
+    ],
 
     "stats_strength": ["#n.random(1..18)#"],
     "stats_dexterity":  ["#n.random(1..18)#"],
@@ -86,12 +29,19 @@
     "stats_agility":  ["#n.random(1..18)#"],
     "stats_luck":  ["#n.random(1..18)#"],
 
-    "setStats": [
-        "[strength:#stats_strength#][dexterity:#stats_dexterity#][intelligence:#stats_intelligence#][wisdom:#stats_wisdom#][charisma:#stats_charisma#][constitution:#stats_constitution#][agility:#stats_agility#][luck:#stats_luck#]#addRaceStatModifiers#"
-    ],
-    "birth": ["#setAge##setGender#[occupation:#setOccupation#]#setHistory##setPersonality#[supports:#faction#]#setName#"],
     "getEvent": ["#injury#", "sick with #sickness#", "#luck_event#", "#close_encounter#", "Affinity for #affinity#", "#deed#", "#skill#"],
-    "setOccupation": ["Administrator", "Advisor", "Advocate", "Alchemist", "Almoner", "Apothecary", "Architect", "Archivist", "Astrologist", "Astronomist", "Baker", "Banker", "Barber", "Bather", "Beekeeper", "Blacksmith", "Bleacher", "Bodyguard", "Bookbinder", "Bookseller", "Botanist", "Bottler", "Breeder", "Brewer", "Bricklayer", "Builder", "Butcher", "Butler", "Cannoneer", "Captain", "Carpenter", "Carrier", "Carter", "Cartographer", "Cartwright", "Catcher", "Chamberlain", "Chandler", "Cheesemaker", "Chemist", "Cleric", "Coinsmith", "Tax Collector", "Conjurer", "Cook", "Cooper", "Copyist", "Counselor", "Cowherder", "Craftsfolk", "Crier", "Cutler", "Demonologist", "Dentist", "Diplomat", "Doctor", "Drayman", "Driver", "Druid", "Dyer", "Enchanter", "Engineer", "Engraver", "Entertainer", "Executioner", "Falconer", "Farrier", "Ferryman", "Fisher", "Fishmonger", "Fletcher", "Forester", "Furrier", "Gardener", "Gatekeeper", "Geologist", "Geomancer", "Glassblower", "Glazier", "Glovemaker", "Goldsmith", "Gravedigger", "Guard", "Guildmaster", "Handler", "Handmaiden", "Hatter", "Hayward", "Healer", "Herbalist", "Herder", "Historian", "Hunter", "Illuminator", "Innkeeper", "Inventor", "Jailer", "Jewelcrafter", "Judge", "Lawyer", "Leatherworker", "Librarian", "Locksmith", "Lumberjack", "Maker", "Mason", "Mercer", "Merchant", "Messenger", "Miller", "Miner", "Minister", "Musician", "Nurse", "Officer", "Owner", "Painter", "Perfumer", "Philosopher", "Pigkeeper", "Plasterer", "Potter", "Professor", "Prostitute", "Pursemaker", "Roofer", "Ropemaker", "Rugmaker", "Runecrafter", "Saddler", "Sailor", "Salter", "Sculptor", "Seer", "Seller", "Shoemaker", "Shop Owner", "Shrubber", "Silversmith", "Skinner", "Slayer", "Soldier", "Sorcerer", "Summoner", "Tailor", "Tanner", "Teller", "Trader", "Trainer", "Washer", "Weaver", "Wetnurse", "Woodcarver", "Worker", "Zookeeper", "Miller", "Blacksmith", "Stonemason", "Armorer", "Minstrel", "Carpenter", "Weaver", "Watchman", "Shoemaker", "Roofer/Thatcher", "Baker", "Farmer", "Fisherman", "Barrister", "Candlemaker", "Artist"] ,
+    "close_encounter": ["close encounter with #creature.indefinite_article#"],
+    "luck_event": ["#bad_luck#", "#good_luck#"],
+
+    "bad_luck": ["spent #their# savings on #vice#", "has #vice.a# habit", "is addicted to #vice#", "is cursed with #curse#"],
+    "good_luck": ["found #item#"],
+    "curse": ["bad luck", "poverty", "lonliness", "weakness", "clumsiness", "stupidity"],
+
+    "name": ["#first_name# #last_name#"],
+
+    "birth": ["#setAge# #setGender# #setOccupation# #setHistory# #setPersonality# #setName# [supports:#faction#]"],
+
+    "setOccupation": ["[occupation:#profession#]"],
     "setPersonality": ["[personality:#trait#][personality:#temperament#][personality:#trait#]"],
     "setRace": ["[race:SET#race#]"],
     "setHistory": [
@@ -107,6 +57,9 @@
    "getGenderedName": [
        "<#gender#_name>"
    ],
-   "setAppearance": ["[hair_color:#appearance_hair_color#][hair_length:#appearance_hair_length#][hair_style:#appearance_hair_style#][eye_color:#appearance_eye_color#][build:#appearance_build#][height:#appearance_height#][weight:#appearance_weight#][complexion:#appearance_complexion#]"]
+   "setAppearance": ["[hair_color:#appearance_hair_color#][hair_length:#appearance_hair_length#][hair_style:#appearance_hair_style#][eye_color:#appearance_eye_color#][build:#appearance_build#][height:#appearance_height#][weight:#appearance_weight#][complexion:#appearance_complexion#]"],
+   "setStats": [
+    "[strength:#stats_strength#][dexterity:#stats_dexterity#][intelligence:#stats_intelligence#][wisdom:#stats_wisdom#][charisma:#stats_charisma#][constitution:#stats_constitution#][agility:#stats_agility#][luck:#stats_luck#]#addRaceStatModifiers#"
+   ]
 
 }

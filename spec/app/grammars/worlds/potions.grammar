@@ -1,0 +1,5 @@
+{
+    "potion": ["Potion of #potion_type#", "Vial of #potion_type#", "Bottle of #potion_type#"],
+    "potion_type": ["vigor", "health", "mana", "strength", "agility", "intelligence", "charisma", "constitution", "lust", "insanity", "confusion", "blindness", "paralysis", "poison", "disease", "wound", "crippled", "fear", "death", "regeneration", "invisibility"]
+
+}

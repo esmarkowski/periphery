@@ -1,0 +1,14 @@
+{
+
+    "survival": ["herbalist", "tracker", "forecast weather"],
+    "lore": ["ancient history", "mythology", "military history", "geneology", "astrology" ],
+    "perception": ["notice clues", "detect secret doors", "spot imminent dangers", "find traps", "follow tracks", "listening for sounds", "find hidden"],
+    "stealth": ["light feet", "spatial awareness", "staying out of sight", "blending in"],
+    "crafting": ["smithing", "leatherworking", "tailoring", "jewelrymaking", "pottery", "cooking", "alchemy", "brewing", "fishing"],
+    "training": ["#instrument#", "#weapon#", "#armor#", "#occupation#", "business", "administration", "medicine", "engineering", "architecture", "law"],
+    "instrument": ["lute", "flute", "drum", "lyre", "whistle", "dulcimer"],
+    "deed": ["#good_deed#", "#bad_deed#", "#evil_deed#"],
+    "skill_level": ["Trained as", "Skilled at", "Experienced in", "Proficient at", "Expert at", "Learning", "Student of", "Master at", "Adept at", "Novice at"],
+    "skill": ["#skill_level# #training#", "#skill_level# #crafting#", "#skill_level# #magic#", "#skill_level# #lore#", "#skill_level# #perception#", "#skill_level# #stealth#", "#skill_level# #survival#"]
+
+}

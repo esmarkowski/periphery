@@ -1,0 +1,7 @@
+{
+    "book_subject": ["#occupation#", "#skill#", "#magic#", "#lore#", "#perception#", "#survival#", "#crafting#", "#training#", "#instrument#", "#knowledge#", "#scroll#"],
+    "book_state": ["yellowed", "crumbling", "leather-bound", "canvas-bound", "thick", "thin"],
+    "book": ["collection of #book_subject.pluralize#", "Guide to #book_subject#", "Tome of #book_subject#", "Manual of #book_subject#"],
+    "knowledge": ["#book_state# #book.titleize#",  "#potion#", "#recipe#", "#scroll#"],
+    "scroll": ["ledger of accounts", "#spell#", "poem"]
+}

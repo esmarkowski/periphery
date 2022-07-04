@@ -1,0 +1,17 @@
+{
+    "faction": ["Society of #occupation.s#", "#occupation#'s union", "#religion#", "#creature.s#", "#race#kind"],
+    "charity": ["donated #money# to [supports:#faction#]#supports#", "donated #money# to rid the world of [hates:#creature.s#]#hates.s#", "donated #food# to [supports:#faction#]#faction#"],
+
+    "currency": ["gold", "copper", "silver"],
+    "money": ["#n.random(1..200)# #currency# coins"],
+
+    "vice": ["gambling", "alcohol", "smoking"],
+    "crime": ["murder", "theft", "extortion", "blackmail"],
+    "sin": ["prideful", "greedy", "lustful", "envious", "gluttonous", "wrathful", "slothful"],
+
+    "bad_deed": ["Committed #crime#","#sin#"],
+    "evil_deed": ["#bad_deed#"],
+    "good_deed": ["#charity#"],
+
+    "recipe": ["#meal#", "#potion#", "#metal#"]
+}

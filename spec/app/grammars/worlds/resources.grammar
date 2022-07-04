@@ -1,0 +1,9 @@
+{
+    "stone": ["limestone", "shale", "granite", "marble"],
+    "mineral": ["salt", "coal", "ochre"],
+    "metal": ["copper", "silver", "gold", "iron", "tin", "lead"],
+    "gemstone": ["diamond", "ruby", "sapphire", "emerald", "topaz", "opal", "onyx", "tourmaline", "amethyst", "garnet", "alexandrite", "jade", "carnelian", "quartz", "citrine", "malachite", "jasper", "zircon", "sardonyx", "amber"],
+
+    "lumber": ["wood", "logs", "timber", "bark", "ash", "charcoal", "firewood", "ashwood", "birch", "cedar", "elm", "oak", "pine", "willow", "yew"]
+
+}

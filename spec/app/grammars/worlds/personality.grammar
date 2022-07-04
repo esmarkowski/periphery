@@ -1,0 +1,4 @@
+{
+    "temperament": ["happy", "gloomy", "angry", "bitter", "sad", "joyful", "humorous", "optimist", "pessimistic", "depressed", "haughty"],
+    "trait": ["irrational", "rational", "carefree", "cautious", "kind", "aloof", "meticulous", "obsessive", "dismissive", "flaky", "close-minded", "open-minded", "perverted", "prudish"]
+}

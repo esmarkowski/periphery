@@ -1,0 +1,52 @@
+{
+    "item": ["#gemstone.indefinite_article#", "#metal#", "#jewelry.indefinite_article#", "#weapon.indefinite_article#", "#armor#", "#potion#", "#food#", "#knowledge#", "#artifact#", "#money#"],
+
+    "jewelry": ["#jewelry_type# #jewelry_piece#"],
+    "jewelry_type": ["#metal#", "#gemstone#", "wooden"],
+    "jewelry_piece": ["#jewelry_neck#", "#jewelry_head#", "#jewelry_hand#"],
+    "jewelry_neck": ["necklace", "pendant", "brooch", "choker", "amulet"],
+    "jewelry_head": ["circlet", "crown", "earring", "stud"],
+    "jewelry_hand": ["ring", "bracelet"],
+
+    "artifact": ["deck of tarrot cards", "stone tablet"],
+
+    "armor_type": ["leather", "plate", "chainmail", "scale-mail", "studded leather", "#metal#"],
+    "armor_piece": ["helmet", "breastplate", "gauntlets", "greaves", "boots", "gloves", "bracers", "cuirass", "cap"],
+    "armor": ["#armor_type# #armor_piece#", "#armor_type# #armor_piece#"],
+
+    "weapon": ["sword", "dagger", "mace", "spear", "axe", "bow", "crossbow", "staff", "wand", "hammer", "flail", "maul", "scythe", "polearm"],
+
+    "clothing_state": ["worn", "ragged", "fine", "rough", "heavy", "dirty", "tattered", "torn", "clean", "thick", "vibrant"],
+    "clothing_color": ["purple", "white", "red", "yellow", "green", "blue", "peach", "orange", "brown", "black", "pink", "grey", "beige", "burgandy", "honey", "rose", "tan"],
+    "clothing_type": ["wool", "silk", "cotton", "linen", "velvet", "satin", "leather"],
+
+    "clothing_top": ["blouse", "shirt", "vest", "jacket"],
+    "clothing_bottom": ["trousers", "pants", "shorts", "stockings"],
+    "clothing_neck": ["scarf", "cape", "cloak"],
+    "clothing_hands": ["gloves", "mittens"],
+    "clothing_shoes": ["boots", "sandals", "shoes"],
+    "clothing_accessory": ["cape", "belt", "sash", "shawl", "cloak",  "gloves" ],
+    "clothing_piece": ["hat", "shirt", "pants", "robe", "cape", "cloak"],
+    "clothing": ["#clothing_color# #clothing_piece#", "#clothing_type# #clothing_piece#", "#clothing_state# #clothing_color# #clothing_type# #clothing_piece#"],
+
+    "female_top": ["#clothing_top#", "#clothing_state# bra"],
+    "female_bottom": ["garter belt", "lace stockings", "skirt", "petticoat", "pants"],
+    "female_shoes": ["thigh-high boots", "heels", "below-the-knee boots"],
+    "female_outfit": [
+        "#female_bottom#, #female_top#, and #clothing_accessory.a#",
+        "dress made of #clothing_color# #clothing_type#",
+        "#outfit_description# #clothing_color# dress made of #clothing_type#",
+        "#outfit_description# dress",
+        "#clothing_state# #clothing_top#, #clothing_state# #clothing_neck# #clothing_type# #clothing_shoes#"
+    ],
+    "outfit_description": ["tight", "loose", "revealing", "ill-fitting"],
+    "male_outfit": [
+        "#clothing_color# #clothing_type# #clothing_top#, #clothing_bottom#, #clothing_shoes# and #clothing_accessory#",
+        "#clothing# and #clothing_type# #clothing_bottom#",
+        "[outfit_state:#clothing_state#]#outfit_state# #clothing_top#, #clothing_type# #clothing_bottom# and #clothing_accessory#"
+    ],
+    "outfit": [
+        "#armor# and #armor# over <#gender#_outfit.a>", 
+        "<#gender#_outfit>"
+    ]
+}

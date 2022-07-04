@@ -1,0 +1,5 @@
+{
+    
+    "food": ["ale", "beans", "beef", "beer", "brandy elvin", "brandy", "bread", "butter", "cheese", "chicken", "coarse sugar", "dried #crop#", "egg", "eggs", "feywine", "figs", "fish", "flour", "fresh vegetable", "fruit", "game meat", "grain", "grog", "herbs", "honey", "pickled fish", "pork", "rum", "sausage", "scotch", "spice", "whiskey", "wine", "#crop#"],
+    "meal": ["#food# stew", "#food# pie", "#food# and #food# bowl"]
+}

@@ -1,5 +1,4 @@
 {
-    "injuries": ["broken #bone#", "lost #body_part.indefinite_article#", "burn on #body_part#", "scars on #body_part#"],
     "head": ["tooth", "neck", "forehead", "chin", "mouth", "nose", "head"],
     "finger": ["thumb", "index", "middle", "ring", "pinky"],
     "body_part": ["shoulder", "arm", "leg", "foot", "hand", "eye", "ear", "bicep", "chest", "forearm", "shin", "thigh", "cheek"], 

@@ -1,7 +1,9 @@
 {
     "name": [],
     "province": [],
-    "state": ["Verilin"],
+    "state": ["Verilin", "Kırklareli", "Marisya","Sharyia", "Inbelalon", "Aylan", "Sultanbeyli", "Yalova", "Kütahya", "Aydın", "Balıkesir", "Çanakkale", "Trabzon", "Niğde", "Bartın", "Iğdır", "Karabük", "Kilis", "Osmaniye", "Düzce"],
+    
+    "generatePopulation": [],
     "resources": [],
     "culture": [],
     "religion": [],
@@ -15,6 +17,5 @@
     "has_walls": [],
     "has_plaza": [],
     "has_temple": [],
-    "has_shanty_town": [],
-    "watabou": ["https://watabou.github.io/city-generator/?name=Freygport&population=7501&size=28&seed=1147251230001&river=1&coast=1&farms=1&citadel=1&urban_castle=0&hub=false&plaza=1&temple=0&walls=1&shantytown=0&gates=-1&sea=0.69"]
+    "has_shanty_town": []
 }
