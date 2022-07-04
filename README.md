@@ -76,6 +76,19 @@ Grammars use a cascading `type`.`specific`.grammar naming convention. For exampl
 Character Generation
 
 ```ruby
+
+rows = 10.times.map do 
+    npc = Character.new
+    state = npc.state.flatten("#name#, #age#, #race.capitalize#, #gender_sign#, #occupation#").split(',')
+    state.push(npc.personality.join(', '))
+    state.push([npc.supports!, npc.supports].flatten.uniq.join(', ')) #.join(', '))
+    state.push(npc.events.uniq.map(&:capitalize).join(", "))
+end
+
+puts Terminal::Table.new title: "Characters", headings: ['Name', 'Age', 'Race', 'Gender', 'Occupation', 'Personality', 'Factions', 'History'], rows: rows
+```
+
+```ruby
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                                                                                                  Characters                                                                                                   |
 +-----------------------+------+--------+--------+------------------+----------------------+-------------------------+------------------------------------------------------------------------------------------+
@@ -96,8 +109,13 @@ Character Generation
 
 ### Character Sheets
 
-```ruby
 
+```ruby
+character = Character.new
+puts character.character_sheet
+```
+
+```ruby
 +----------------------------------------------------------------------------------------------------------------------+
 |                                                   Freya Coleshill                                                    |
 +-------------------+-------------------+-------------------+-------------------+-------------------+------------------+
